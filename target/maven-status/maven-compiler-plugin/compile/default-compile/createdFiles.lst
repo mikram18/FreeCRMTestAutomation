@@ -1,0 +1,6 @@
+crm/pages/LoginPage.class
+crm/base/TestBase.class
+crm/pages/SignupPage.class
+crm/pages/ContactsPage.class
+crm/util/TestUtil.class
+crm/pages/HomePage.class

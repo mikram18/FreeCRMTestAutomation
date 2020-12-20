@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.264 s <<< FAILURE! - in TestSuite
+verifyContactsLinkTest(crm.testcases.HomePageTests)  Time elapsed: 0.123 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //a[contains(text(), 'Contacts')} because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(), 'Contacts')}' is not a valid XPath expression.
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mohammads-MacBook-Pro-2.local', ip: 'fe80:0:0:0:10b6:64e6:f05e:8bb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/92/nl00jjg57ql...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ad1d401606f4b520290eccb8fc34deb4
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Contacts')}}
+	at crm.testcases.HomePageTests.verifyContactsLinkTest(HomePageTests.java:54)
+
