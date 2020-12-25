@@ -13,7 +13,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//td[contains(text(),'User: Demo User')]")
 	WebElement nameofUser;
 	
-	@FindBy(xpath = "//a[contains(text(), 'Contacts')}")
+	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
 	WebElement contactsLink;
 	
 	@FindBy(xpath = "//a[contians(text(), 'Deals')]")
